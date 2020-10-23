@@ -1,0 +1,42 @@
+@import url("<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,600;1,100&display=swap" rel="stylesheet"> ");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/text-box.css");
+
+body{
+background-color: white;
+color: #black;
+margin: 0px;
+font-family: 'Barlow', sans-serif;
+  }
+h1,h2,h3,h4{
+  font-family: 'Barlow', sans-serif;
+  }
+p{
+  font-family: 'Barlow', sans-serif;
+  }
+@media (max-width: 760px){
+  .container {
+    width: 600px
+  }
+}
+@media (max-width: 500px){
+  .container{
+    width: 400px
+  }
+a{
+  color: #f2e3c9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 100;
+  }
+a:hover {
+  color: #98ccd3;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  }
+
